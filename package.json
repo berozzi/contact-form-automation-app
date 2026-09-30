@@ -1,0 +1,13 @@
+{
+  "name": "contact-form-automation-app",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Formularz kontaktowy – frontend (Vite + React + TS) i backend (Express + TS)",
+  "scripts": {
+    "install:all": "npm install --prefix frontend && npm install --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "build": "npm run build --prefix frontend && npm run build --prefix backend",
+    "typecheck": "npm run typecheck --prefix frontend && npm run typecheck --prefix backend"
+  }
+}
